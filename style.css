@@ -1,0 +1,296 @@
+.container-fluid{
+    background-color: rgb(48, 134, 168);
+    height: 50px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif; 
+    color:rgb(0, 0, 0);
+}
+ 
+
+body{
+    background-color: snow;
+}
+.jumbotron{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#CETBBSR{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+.row{
+    background-color:lightcyan;
+    background-attachment: fixed;
+    margin-top: -8pxpx;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.aboutustext{
+    font-size: 20px;
+}
+.abouttext{
+    margin-left: 20px;
+}
+marquee{
+    color: red;
+}
+.nostyle{
+    list-style-type:none;
+    padding-top: -20px;
+}
+.nomargin{
+    margin:0% !important;
+    padding:0% !important;
+}
+a:hover{
+    color:red;
+}
+
+.aboutus{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.aboutsection{
+    background: url("../CET WEB/CET image/CET\ CAmpus.png") no-repeat left;
+    background-size: 55%;
+    background-color: rgb(140, 235, 235);
+    overflow: hidden;
+    padding: 100px 0;
+    
+}
+.innercontainer{
+    width: 55%;
+    float: right;
+    background-color: rgb(232, 246, 250);
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px ;
+}
+.innercontainer h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700px;
+ }
+ .text{
+     font-size: 13px;
+     color:black;
+     line-height: 20px;
+     text-align: justify;
+     margin-bottom: 40px;
+ }
+ .swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+    margin-top: 15px;
+}
+/* nail */
+.swing:before{
+    content: '';
+    position:fixed;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+    margin-top: 15px;
+}
+.principal{
+    background-color: rgb(255, 238, 206);
+    padding-top: 20px;
+    padding-bottom: 30px;  
+}
+.bgcolor{
+    background-color: yellowgreen;
+    margin-top: -10px;
+    
+}
+table{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+table{
+    
+    display: grid;
+    place-items: center;
+}
+table{
+    width:100%;
+    box-shadow: 10px 5px 5px 10px rgb(175, 170, 170);
+
+}
+table,td,th{
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+.table3{
+    width: 100%;
+}
+.achieve{
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    background: url("../CET WEB/CET image/CET\ CAmpus.png");
+    background-size: cover;
+}
+.achieve{
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: url("../CET WEB/CET image/Amitash.JPG");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+.achieve2{
+    position: absolute;
+    left: 75%;
+    top: 140%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    background: url("../CET WEB/CET image/anustup.JPG");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+.achieve3{
+    position: absolute;
+    left: 25%;
+    top: 195%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle3{
+    width: 200px;
+    height: 200px;
+    background: url("../CET WEB/CET image/MUSKAN.JPG");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+.achieve4{
+    position: absolute;
+    left: 75%;
+    top: 250%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle4{
+    width: 200px;
+    height: 200px;
+    background: url("../CET WEB/CET image/sanjita.JPG");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+.achieve5{
+    position: absolute;
+    left: 25%;
+    top: 305%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle5{
+    width: 200px;
+    height: 200px;
+    background: url("../CET WEB/CET image/pratyush.JPG");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+ @media screen and (max-width:1200px){
+     .innercontainer{
+         padding: 80px;
+     }
+ }
+@media screen and(max-width:1000px) {
+    .aboutsection{
+        background-size: 100%;
+        padding: 100px 40px;
+
+    }
+    .innercontainer{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+    .aboutsection{
+        padding:0;
+
+    }
+    .innercontainer{
+        width:60px;
+    }
+}
